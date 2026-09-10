@@ -1,0 +1,6 @@
+print("Welcome to the Gaaaammmeee show!!Press enter to continue!!")
+input("")
+print("Where we ask questions about YOU!")
+input("")
+their_name = input("Whats your your beautiful name?!!")
+print(f"Hi {their_name},what a cool name")
