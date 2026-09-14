@@ -11,6 +11,30 @@ else:
     print("Wrong that was a tough one!")  
 input("")
 print("Next question!!")
-answer2 = input("What gets wetter the more it dries?")
-if answer2 == "a towel"
-    print("Nice one +10 points")
+answer2 = input("Question two! What gets wetter the more it dries")
+if answer2 == "a towel":
+    print("Correct +10 points")
+else:
+    print("Wrong that was a tough one -10 points!") 
+input("")
+print("Next question")
+answer3 = input("What is something you can break but never hold")
+if answer3 == "a promise":
+    print("Correct +10 points")
+else:
+    print("Wrong that was a tough one -10 points!") 
+input("")
+print("Next question!!")
+answer = input("Question 4. What two keys cant open a door?")
+if answer == "a monkey and a donkey":
+    print("Correct +10 points")
+else:
+    print("Wrong that was a tough one -10 points!") 
+    input("")
+    print("Halfway there!")
+    print("Next question!!")
+answer = input("Im so fragile that if you say my name, you’ll break me. What am I?")
+if answer == "silence":
+    print("Correct +10 points")
+else:
+    print("Wrong that was a tough one -10 points!") 
