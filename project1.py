@@ -13,16 +13,16 @@ input("")
 print("Next question!!")
 answer2 = input("Question two! What gets wetter the more it dries")
 if answer2 == "a towel":
-    print("Correct +10 points")
+    print("Correct! +10 points")
 else:
-    print("Wrong that was a tough one -10 points!") 
+    print("Wrong you'll gt  it next time! -10 points!") 
 input("")
 print("Next question")
 answer3 = input("What is something you can break but never hold")
 if answer3 == "a promise":
     print("Correct +10 points")
 else:
-    print("Wrong that was a tough one -10 points!") 
+    print("Wrong! -10 points!") 
 input("")
 print("Next question!!")
 answer = input("Question 4. What two keys cant open a door?")
@@ -31,10 +31,11 @@ if answer == "a monkey and a donkey":
 else:
     print("Wrong that was a tough one -10 points!") 
     input("")
-    print("Halfway there!")
-    print("Next question!!")
-answer = input("Im so fragile that if you say my name, you’ll break me. What am I?")
-if answer == "silence":
+    print("Last question!!")
+answer = input("What is the meaning of life?")
+if answer == "nothing":
     print("Correct +10 points")
 else:
-    print("Wrong that was a tough one -10 points!") 
+    print("Wrong man how do you not know the meaning of life??")
+input("")
+print("AAAAAAnd thats all folk! Make sure to add up all your points at the end!")
